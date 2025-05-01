@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+@theme {
+    --color-blue-300: #1273b1;
+    --color-blue-500: #10649a;
+    --color-blue-800: #0d5583;
+    --color-blue-900: #0b4c75;
+    
+    --color-gray-700: #1d2943;
+}

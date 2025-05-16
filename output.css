@@ -60,7 +60,6 @@
     --text-6xl--line-height: 1;
     --font-weight-thin: 100;
     --font-weight-light: 300;
-    --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
@@ -234,17 +233,8 @@
     white-space: nowrap;
     border-width: 0;
   }
-  .absolute {
-    position: absolute;
-  }
   .fixed {
     position: fixed;
-  }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
-  .top-10 {
-    top: calc(var(--spacing) * 10);
   }
   .left-0 {
     left: calc(var(--spacing) * 0);
@@ -934,11 +924,6 @@
       }
     }
   }
-  .sm\:pt-25 {
-    @media (width >= 40rem) {
-      padding-top: calc(var(--spacing) * 25);
-    }
-  }
   .sm\:pt-50 {
     @media (width >= 40rem) {
       padding-top: calc(var(--spacing) * 50);
@@ -998,11 +983,6 @@
   .md\:p-12 {
     @media (width >= 48rem) {
       padding: calc(var(--spacing) * 12);
-    }
-  }
-  .md\:pt-20 {
-    @media (width >= 48rem) {
-      padding-top: calc(var(--spacing) * 20);
     }
   }
   .md\:pt-25 {
